@@ -1,0 +1,41 @@
+.hero{
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+}
+
+.firsthero{
+    background-image:url("../../images/category-1.jpeg");
+    width: 49%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.secondhero{
+    background-color: white;
+    width: 49%;
+     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.text{
+    width: 75%;
+
+  
+
+}
+
+  .buttons{
+        border: none;
+        outline: none;
+        border-bottom: 4px solid orangered;
+        width: fit-content;
+        background: none;
+        cursor: pointer;
+    }
