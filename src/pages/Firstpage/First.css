@@ -1,0 +1,148 @@
+.contenthold1{
+    background-image: url(../../images/2151872279\ 1.png);
+    height: 886px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.holding1{
+    background-color: rgba(0, 0, 0, 0.858);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inside1{
+    width: 90%;
+    /* background-color: yellow; */
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ngo1{
+    h1{
+        margin: 0;
+        color: white;
+    }
+
+
+    p{
+        margin: 0;
+        color: white;
+    }
+}
+
+.line1{
+    width: 100%;
+}
+
+.bothcontent1{
+    /* background-color: red; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.leftside1{
+    /* background-color: aqua; */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.rightside1{
+    /* background-color: yellow; */
+    width: 70%;
+    display: flex;
+   
+
+}
+.rightsidecontent1{
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ 
+   
+}
+
+.indistyling1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 70%;
+    /* background-color: chartreuse; */
+
+}
+
+.dmj1{
+    display: flex;
+    text-decoration: none;
+    margin-left: 662px;
+    /* background-color: yellowgreen; */
+    
+    button{
+         border-radius: 22px;
+     padding: 10px 40px;
+       background-color: #8229D9;
+       border: none;
+       outline: none;
+       color: white;
+       transition: ease-in-out 0.7s;
+    }
+    button:hover{
+        background-color: transparent;
+        color: #8229D9;
+        border: 1px solid #8229D9;
+        cursor: pointer;
+        outline: none;
+    
+    }
+}
+
+.individualrightsidecontent1{
+    display: flex;
+    /* background-color: goldenrod; */
+    /* justify-content: space-between; */
+    width: 50%;
+    flex-direction: column;
+    gap: 10px;
+    h5{
+        margin: 0;
+        color: white;
+    }
+}
+
+
+.col1{
+    color: #FF6600;
+}
+
+.textstyle1{
+    border-radius: 10px;
+    width: 95%;
+    height: 40px;
+    background-color: transparent;
+     border: 0.5px solid #FFFFFF1A;
+    color: white;
+    outline: none;
+    
+
+}
+
+.textstylers1{
+    border-radius: 10px;
+    width: 90%;
+    height: 20px;
+    background-color: transparent;
+     border: 0.5px solid #FFFFFF1A;
+     outline: none;
+    padding: 10px;
+}

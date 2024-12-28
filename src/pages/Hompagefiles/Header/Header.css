@@ -1,0 +1,143 @@
+.headhold{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 135px;
+   
+}
+
+.headinside{
+    width: 90%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+
+    img{
+        height: 60px;
+    }
+}
+
+.bar{
+    display: none;
+    font-size: 40px;
+  
+}
+
+.headcontent{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+
+
+
+}
+
+.her{
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.headcontent2{
+    background-color: #ebdef9;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+
+   
+}
+
+.buti{
+
+
+      button{
+        border-radius: 22px;
+        background-color: #8229D9;
+        color: white;
+        border: none;
+        outline: none;
+        padding: 10px 40px;
+        width: 100%;
+        
+    }
+
+    button:hover{
+        background-color: transparent;
+        color: #8229D9;
+        border: 1px solid #8229D9;
+        cursor: pointer;
+    }
+}
+
+.word2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.responsivenessbar {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 250px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: all 1s ease-in-out;
+  padding: 20px;
+}
+
+.responsivenessbar.active{
+    left: 0;
+}
+
+.respond{
+    display: none;
+}
+
+.word{
+    display: flex;
+    gap: 50px;
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    
+    .bar{
+        display: block;
+
+    }
+
+    .headcontent{
+        display: none;
+       
+
+    }
+
+    .headinside{
+
+
+        img{
+            height: 50px;
+        }
+    }
+
+
+}

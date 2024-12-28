@@ -1,0 +1,153 @@
+.footer{
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.parentfooter{
+          /* background-color: blue; */
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footerlogo{
+    width: 35%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    img{
+        height: 80px;
+    }
+   
+}
+
+.contentholds{
+    display: flex;
+    gap: 100px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    a{
+        text-decoration: none;
+        color: black;
+        cursor: pointer;
+    }
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h5{
+        margin: 0;
+    }
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+      h5{
+        margin: 0;
+    }
+}
+
+.beginning{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+      h5{
+        margin: 0;
+    }
+}
+
+.linki{
+    display: flex;
+    gap: 20px;
+ 
+}
+
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+
+    .footer{
+        height: 700px;
+        /* background-color: blue; */
+    }
+
+    .parentfooter{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .beginning{
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    
+    .footerlogo{
+        width: 100%;
+
+        img{
+            background-size: contain;
+        }
+    }
+
+    .contentholds{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .input{
+        a{
+            font-size: small;
+        }
+    }
+
+    .first{
+        h5{
+            margin: 0;
+        }
+    }
+
+    .second{
+         h5{
+            margin: 0;
+        }
+    }
+
+    .third{
+         h5{
+            margin: 0;
+        }
+    }
+    
+}

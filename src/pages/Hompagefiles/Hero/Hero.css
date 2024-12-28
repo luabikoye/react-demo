@@ -1,0 +1,84 @@
+.main{
+    background-color: rgba(6, 5, 5, 0.324);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  
+  h1 {
+    /* background-color: green; */
+    width: 40%;
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-weight: 900;
+  }
+
+  h6 {
+    margin: 0;
+    color: white;
+  }
+
+  
+}
+
+
+.buti{
+
+
+      button{
+        border-radius: 22px;
+        background-color: #8229D9;
+        color: white;
+        border: none;
+        outline: none;
+        padding: 10px 40px;
+        width: 100%;
+        
+    }
+
+    button:hover{
+        background-color: transparent;
+        color: #8229D9;
+        border: 1px solid #8229D9;
+        cursor: pointer;
+    }
+}
+
+.inhero {
+  background-image: url(../../../images/2151872279\ 1.png);
+  background-size: cover;
+  background-position: center;
+  height: 653px;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+    .inhero{
+        background-size: cover;
+        background-repeat:no-repeat;
+        height: 350px;
+    }
+    
+    .main{
+        h1{
+            font-size: small;
+            width: 70%;
+        }
+
+        h6{
+            font-size: small;
+        }
+
+        button{
+            font-size: small;
+        }
+    }
+}

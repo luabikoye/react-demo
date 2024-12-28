@@ -1,0 +1,31 @@
+.oneiesy{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+
+    h5{
+        margin: 0;
+        color: white;
+        height: 100%;
+       
+
+    }
+
+     p{
+        margin: 0;
+       font-size: small;
+       color: white;
+    }
+}
+
+.wateriesys{
+    display: flex;
+    justify-content: right;
+    align-items: start;
+    /* background-color: green; */
+    width: 100%;
+    gap: 10px;
+   
+
+}
