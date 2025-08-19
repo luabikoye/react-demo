@@ -1,13 +1,13 @@
-import React from 'react'
-import "./Content1.css"
+import React from "react";
+import "./Content1.css";
 
 const Content1 = () => {
   return (
     <div className="contin1">
-      <div className='container'>
+      <div className="container">
         <div className="firststyle">
           <h6>Eligibility</h6>
-          <h1>Eligibility Criteria to Apply for Grants</h1>
+          <h1>EAre you eligible to apply for this Grants?</h1>
         </div>
 
         <div className="words">
@@ -20,6 +20,6 @@ const Content1 = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Content1;
