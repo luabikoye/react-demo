@@ -7,7 +7,7 @@ const Content1 = () => {
       <div className="container">
         <div className="firststyle">
           <h6>Eligibility</h6>
-          <h1>EAre you eligible to apply for this Grants?</h1>
+          <h1>Are you eligible to apply for this Grants?</h1>
         </div>
 
         <div className="words">
