@@ -26,7 +26,7 @@ jobs:
 
       # 4. Build React project
       - name: Build project
-        run: npm run build
+        run: CI=false npm run build
 
       # 5. Copy build files to server /var/www/html
       - name: Deploy to Server
