@@ -1,10 +1,10 @@
-import React from 'react'
-import "./Footer.css"
-import pic from "../../../images/logoidice 1.png"
-import fb from "../../../images/Facebook.png"
-import ig from "../../../images/Instagram.png"
-import x from "../../../images/Vector (1).png"
-import linked from "../../../images/Vector.png"
+import React from "react";
+import "./Footer.css";
+import pic from "../../../images/logoidice 1.png";
+import fb from "../../../images/Facebook.png";
+import ig from "../../../images/Instagram.png";
+import x from "../../../images/Vector (1).png";
+import linked from "../../../images/Vector.png";
 
 const Footer = () => {
   return (
@@ -26,6 +26,7 @@ const Footer = () => {
               <div className="input">
                 <a href="">Home</a>
                 <a href="">About</a>
+                <a href="">Membership</a>
                 <a href="">Contact</a>
               </div>
             </div>
@@ -63,6 +64,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;

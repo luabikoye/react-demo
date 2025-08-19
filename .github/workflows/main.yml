@@ -47,5 +47,5 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           script: |
             sudo rm -rf /var/www/html/*
-            sudo mv /tmp/app_build/* /var/www/html/
+            sudo mv /tmp/app_build/build/* /var/www/html/
             sudo systemctl restart nginx
